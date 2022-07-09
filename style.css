@@ -1,0 +1,49 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: url("https://gastronomiacarioca.zonasul.com.br/wp-content/uploads/2021/10/paes_destaque_zona_sul_fernando_mafra.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 200px;
+    font-size: 40px;
+}
+
+.content {
+    padding: 20px 200px;
+}
+
+.content-title {
+    margin: 20px;
+}
+
+.products {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product {
+    background-color: #906a51;
+    border-radius: 5px;
+}
+
+.product-image {
+    max-height: 200px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.product-body {
+    padding: 20px;
+    color: beige;
+}
